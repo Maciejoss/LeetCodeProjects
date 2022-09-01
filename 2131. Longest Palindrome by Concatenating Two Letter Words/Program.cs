@@ -5,7 +5,7 @@ public class Solution {
             int count = 0;
             foreach (var item in words)
             {
-                if (letters[item[1] - 'a', item[0] - 'a'] >= 1) { count+=2; letters[item[1] -                         'a', item[0] - 'a'] --; }
+                if (letters[item[1] - 'a', item[0] - 'a'] >= 1) { count+=2; letters[item[1] - 'a', item[0] - 'a'] --; }
                 else letters[item[0] - 'a', item[1] - 'a']++;
             }
             for(int i=0;i<26;i++)
