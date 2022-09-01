@@ -24,12 +24,12 @@ public class Solution {
             if(lasteven.next!=null){
                 lastodd.next=lasteven.next;
                 lastodd=lasteven.next;
-            	} else{break;}
+            } else{break;}
 
             if(lastodd.next!=null){
                 lasteven.next = lastodd.next;
                 lasteven=lastodd.next;
-            }else{lasteven.next=null;break;}
+            } else{lasteven.next=null;break;}
 
         }
 
